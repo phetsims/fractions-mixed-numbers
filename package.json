@@ -11,6 +11,9 @@
   },
   "phet": {
     "requirejsNamespace": "FRACTIONS_MIXED_NUMBERS",
+    "phetLibs": [
+      "fractions-common"
+    ],
     "runnable": true,
     "supportedBrands": [
       "phet",
