@@ -31,7 +31,7 @@ define( function( require ) {
     };
 
     Screen.call( this,
-      function() { return new IntroModel(); }, // TODO: mixed numbers flag
+      function() { return new IntroModel( true ); },
       function( model ) { return new IntroScreenView( model ); },
       options
     );
