@@ -9,9 +9,11 @@ define( function( require ) {
   'use strict';
 
   // modules
+  var IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
+  var GameScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/GameScreen' );
+  var LabScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/LabScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
-  var FractionsMixedNumbersScreen = require( 'FRACTIONS_MIXED_NUMBERS/fractions-mixed-numbers/FractionsMixedNumbersScreen' );
 
   // strings
   var fractionsMixedNumbersTitleString = require( 'string!FRACTIONS_MIXED_NUMBERS/fractions-mixed-numbers.title' );
@@ -29,7 +31,11 @@ define( function( require ) {
   };
 
   SimLauncher.launch( function() {
-    var sim = new Sim( fractionsMixedNumbersTitleString, [ new FractionsMixedNumbersScreen() ], simOptions );
+    var sim = new Sim( fractionsMixedNumbersTitleString, [
+      new IntroScreen(),
+      new GameScreen(),
+      new LabScreen()
+    ], simOptions );
     sim.start();
   } );
 } );
