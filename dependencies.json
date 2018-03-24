@@ -1,11 +1,11 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.0-dev.2 Fri Mar 23 2018 20:39:48 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.0-dev.3 Sat Mar 24 2018 02:59:21 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "928741cfc8fe804334d5b35292140314511f8678",
     "branch": "master"
   },
   "axon": {
-    "sha": "dbea3cf9d7f2fdf593c4d8e5a1356491777574dc",
+    "sha": "3f790f7782f07780e5867b455c99543fbd1b9319",
     "branch": "master"
   },
   "brand": {
@@ -21,15 +21,15 @@
     "branch": "master"
   },
   "fractions-common": {
-    "sha": "7f9bed5dc9d47038fb99921c66a4847ae1ee3d99",
+    "sha": "8c9ef5fcfbdec3f28c470842f8f01b60b815725f",
     "branch": "master"
   },
   "fractions-mixed-numbers": {
-    "sha": "7abd8cdf1f8d053b243fc52a6435a498109e87b7",
+    "sha": "cfd27e317042fab2bb10165a9fecb9cde0bf640c",
     "branch": "master"
   },
   "joist": {
-    "sha": "72fd69652e31242bc396aeb80a972ea6a8311ac5",
+    "sha": "88fb85a99ddf6f018e5864d9c8064160c5c66d5a",
     "branch": "master"
   },
   "kite": {
@@ -41,7 +41,7 @@
     "branch": "master"
   },
   "phet-io": {
-    "sha": "b30d0a0211643dece2593cf2cb71affc94f94484",
+    "sha": "1ffdd7e76955d480231be47cbb2161e2c02e8830",
     "branch": "master"
   },
   "phet-io-website": {
@@ -73,7 +73,7 @@
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "0152610b76eddf68503f7b5d8b4d71b22f08e655",
+    "sha": "26598a5dba515adb6ed75fc46645ae00d28207e3",
     "branch": "master"
   },
   "sherpa": {
