@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.0-dev.1 Fri Mar 23 2018 20:37:38 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.0-dev.2 Fri Mar 23 2018 20:39:48 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "928741cfc8fe804334d5b35292140314511f8678",
     "branch": "master"
@@ -21,11 +21,11 @@
     "branch": "master"
   },
   "fractions-common": {
-    "sha": "de17b3ee8cd40a0149347790ddc3bb6c0f5bddcf",
+    "sha": "7f9bed5dc9d47038fb99921c66a4847ae1ee3d99",
     "branch": "master"
   },
   "fractions-mixed-numbers": {
-    "sha": "702156f6102bc9ba178e41aa364f5abd8243f25f",
+    "sha": "7abd8cdf1f8d053b243fc52a6435a498109e87b7",
     "branch": "master"
   },
   "joist": {
