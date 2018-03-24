@@ -1,0 +1,95 @@
+{
+  "comment": "# fractions-mixed-numbers 1.0.0-dev.1 Fri Mar 23 2018 20:37:38 GMT-0600 (Mountain Daylight Time)",
+  "assert": {
+    "sha": "928741cfc8fe804334d5b35292140314511f8678",
+    "branch": "master"
+  },
+  "axon": {
+    "sha": "dbea3cf9d7f2fdf593c4d8e5a1356491777574dc",
+    "branch": "master"
+  },
+  "brand": {
+    "sha": "89d28f6309a83eb51b6c1fc0130e76ad7935f09e",
+    "branch": "master"
+  },
+  "chipper": {
+    "sha": "525dedc7031ec8e17c757410a6a800927a8d5c9b",
+    "branch": "master"
+  },
+  "dot": {
+    "sha": "b84c47a5598acf95901b3b9068ea200575c2c831",
+    "branch": "master"
+  },
+  "fractions-common": {
+    "sha": "de17b3ee8cd40a0149347790ddc3bb6c0f5bddcf",
+    "branch": "master"
+  },
+  "fractions-mixed-numbers": {
+    "sha": "702156f6102bc9ba178e41aa364f5abd8243f25f",
+    "branch": "master"
+  },
+  "joist": {
+    "sha": "72fd69652e31242bc396aeb80a972ea6a8311ac5",
+    "branch": "master"
+  },
+  "kite": {
+    "sha": "b607147875dca2c350235f96d4f5546617bc6e4b",
+    "branch": "master"
+  },
+  "phet-core": {
+    "sha": "d8804eee9268f549ba6ebf257fd10f8e1c015452",
+    "branch": "master"
+  },
+  "phet-io": {
+    "sha": "b30d0a0211643dece2593cf2cb71affc94f94484",
+    "branch": "master"
+  },
+  "phet-io-website": {
+    "sha": "12c772005576c2850c9838ab5d5f10a189896ae4",
+    "branch": "master"
+  },
+  "phet-io-wrapper-classroom-activity": {
+    "sha": "1ecd81a1495cbdabd08624a461a38c3520292b36",
+    "branch": "master"
+  },
+  "phet-io-wrapper-lab-book": {
+    "sha": "b1c5562c8d029df00e362a9527c1d0bcb385ae53",
+    "branch": "master"
+  },
+  "phet-io-wrappers": {
+    "sha": "f0daebe89009a96a16d8ad378f663bd14de46b3f",
+    "branch": "master"
+  },
+  "phetcommon": {
+    "sha": "87c6c4b5917f3b7282c4de9273b5331efbf9ffad",
+    "branch": "master"
+  },
+  "query-string-machine": {
+    "sha": "c379f1dbd589dda8f3cc2507dbe9a50d12e05857",
+    "branch": "master"
+  },
+  "scenery": {
+    "sha": "141b24189ec4564acaa2edcc24cc7b756b80f810",
+    "branch": "master"
+  },
+  "scenery-phet": {
+    "sha": "0152610b76eddf68503f7b5d8b4d71b22f08e655",
+    "branch": "master"
+  },
+  "sherpa": {
+    "sha": "9c6ec322fc2577bbbdc588bb67765dfdb76b49a9",
+    "branch": "master"
+  },
+  "sun": {
+    "sha": "4705feea6e3cf6f792518c2faa77451e6bfe4a3f",
+    "branch": "master"
+  },
+  "tandem": {
+    "sha": "f814766603eb4ae4005570ece1b6213b368f2bea",
+    "branch": "master"
+  },
+  "twixt": {
+    "sha": "b3624017d15e5fe456453077bdd9ad6d213b9d0a",
+    "branch": "master"
+  }
+}
