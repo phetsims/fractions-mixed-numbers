@@ -13,7 +13,8 @@
     "requirejsNamespace": "FRACTIONS_MIXED_NUMBERS",
     "phetLibs": [
       "fractions-common",
-      "twixt"
+      "twixt",
+      "vegas"
     ],
     "runnable": true,
     "supportedBrands": [
