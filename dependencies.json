@@ -1,11 +1,11 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.0-dev.4 Wed Mar 28 2018 18:08:15 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.0-dev.5 Tue Jul 31 2018 10:19:28 GMT-0600 (MDT)",
   "assert": {
     "sha": "928741cfc8fe804334d5b35292140314511f8678",
     "branch": "master"
   },
   "axon": {
-    "sha": "ceb3cc008b8ba055ca2c85ee8e566da449223ec5",
+    "sha": "5f7c0993ae3a1de4cfb97798f901329ec9c43b65",
     "branch": "master"
   },
   "brand": {
@@ -13,83 +13,91 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "0f5df42849bb9274022a54250857541ebfa3b657",
+    "sha": "48b2090571ca40a83ace86f1c989f1b3e4d82bc4",
     "branch": "master"
   },
   "dot": {
-    "sha": "b84c47a5598acf95901b3b9068ea200575c2c831",
+    "sha": "54f7fb7dbf72fc243b13ab1185f0d2cc8672792e",
     "branch": "master"
   },
   "fractions-common": {
-    "sha": "735553602b885d216fa9eebc71e9d68d5e1b39fd",
+    "sha": "fc710b51c60487031562280e6ac8e03d342a01c6",
     "branch": "master"
   },
   "fractions-mixed-numbers": {
-    "sha": "c68a64a560206f392a1217af22a06c5497761f24",
+    "sha": "5267b53b4f075cdcb0a221a77f498c07bf0f0b11",
     "branch": "master"
   },
   "joist": {
-    "sha": "bdace378f8cc511ce7f447eec36d65437f6199b9",
+    "sha": "5e48cb4d26d011125b6c92afa4b4420119e7bc6d",
     "branch": "master"
   },
   "kite": {
-    "sha": "b607147875dca2c350235f96d4f5546617bc6e4b",
+    "sha": "6bd3398c5ba5235db52b947ad5decbe22b0cfb5f",
     "branch": "master"
   },
   "phet-core": {
-    "sha": "d8804eee9268f549ba6ebf257fd10f8e1c015452",
+    "sha": "9c242cdc6a08a1e47d70586fc256dd674db59add",
     "branch": "master"
   },
   "phet-io": {
-    "sha": "4bbddfaa334d16dc0126b6d2e8a15777ddca233a",
-    "branch": "master"
-  },
-  "phet-io-website": {
-    "sha": "397862e03bdaf81ad5c81b38d2f4d76b9b7c82f2",
+    "sha": "04d1754d3b2ccbafe166a5caa4d021a6fd966f8a",
     "branch": "master"
   },
   "phet-io-wrapper-classroom-activity": {
-    "sha": "1ecd81a1495cbdabd08624a461a38c3520292b36",
+    "sha": "f666b06e42bf66ac5309292299b8e3869c863f3f",
+    "branch": "master"
+  },
+  "phet-io-wrapper-hookes-law-energy": {
+    "sha": "b3ca28bf95da20730885751e2af16cd11b592341",
     "branch": "master"
   },
   "phet-io-wrapper-lab-book": {
-    "sha": "b1c5562c8d029df00e362a9527c1d0bcb385ae53",
+    "sha": "4144509af06bcc55b0caaa4f15b620d9114eceac",
     "branch": "master"
   },
   "phet-io-wrappers": {
-    "sha": "025cc23dd72e19a23cbb031d620c24719354d243",
+    "sha": "fb20f67689fea38acebf8c852ec9be86d09c317f",
     "branch": "master"
   },
   "phetcommon": {
-    "sha": "87c6c4b5917f3b7282c4de9273b5331efbf9ffad",
+    "sha": "04bc12ce20b0f73221c8e6fcc9fa84aa8f536e39",
     "branch": "master"
   },
   "query-string-machine": {
-    "sha": "c379f1dbd589dda8f3cc2507dbe9a50d12e05857",
+    "sha": "4178d27a4a676a93c5b0ba62e2559b232a8dad35",
     "branch": "master"
   },
   "scenery": {
-    "sha": "c8bc9dd992d53200fe1baa246e40c2eb23dcc114",
+    "sha": "cb7019fac5f40558322d49d5e12c65f6cf38780a",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "ac71412555712f7bcb0776fc2fd33e4fb8d17fed",
+    "sha": "bdfe7c1cbc5ef283150e6d5e51c9d908721d95f9",
     "branch": "master"
   },
   "sherpa": {
-    "sha": "9c6ec322fc2577bbbdc588bb67765dfdb76b49a9",
+    "sha": "79fb5b8c6f27048495f6ee7bb113221319a22407",
     "branch": "master"
   },
   "sun": {
-    "sha": "73faac0fb82c517fc966f9c47521f84acac07273",
+    "sha": "81670b4f55c52be2543c1062f9ed95f98948433a",
+    "branch": "master"
+  },
+  "tambo": {
+    "sha": "931072746c05d510518d9848e828abec5365a4cf",
     "branch": "master"
   },
   "tandem": {
-    "sha": "f814766603eb4ae4005570ece1b6213b368f2bea",
+    "sha": "dbedaa8e6fc55df8689a7bbededb2d6921ffb33d",
     "branch": "master"
   },
   "twixt": {
-    "sha": "b2de1f740958289482c94bad27aeb1767d986ca0",
+    "sha": "a73e925766f8c354e4cc23ed16c37f6cddcfbcac",
+    "branch": "master"
+  },
+  "vegas": {
+    "sha": "6b3c902cdd6c5cb3309e96fabb58eb3a6dd392fe",
     "branch": "master"
   }
 }
