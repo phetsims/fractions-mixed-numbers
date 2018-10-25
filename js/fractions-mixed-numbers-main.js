@@ -9,8 +9,8 @@ define( function( require ) {
   'use strict';
 
   // modules
-  var IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
   var GameScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/GameScreen' );
+  var IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
   var LabScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/LabScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
