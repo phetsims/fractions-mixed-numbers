@@ -1,42 +1,37 @@
 // Copyright 2018, University of Colorado Boulder
 
 /**
- * TODO: doc
+ * Intro screen for Fractions: Mixed Numbers
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  var fractionsMixedNumbers = require( 'FRACTIONS_MIXED_NUMBERS/fractionsMixedNumbers' );
-  var inherit = require( 'PHET_CORE/inherit' );
-  var IntroModel = require( 'FRACTIONS_COMMON/intro/model/IntroModel' );
-  var IntroScreenView = require( 'FRACTIONS_COMMON/intro/view/IntroScreenView' );
-  var Screen = require( 'JOIST/Screen' );
+  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
+  const fractionsMixedNumbers = require( 'FRACTIONS_MIXED_NUMBERS/fractionsMixedNumbers' );
+  const IntroModel = require( 'FRACTIONS_COMMON/intro/model/IntroModel' );
+  const IntroScreenView = require( 'FRACTIONS_COMMON/intro/view/IntroScreenView' );
+  const Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenIntroString = require( 'string!FRACTIONS_MIXED_NUMBERS/screen.intro' );
+  const screenIntroString = require( 'string!FRACTIONS_MIXED_NUMBERS/screen.intro' );
 
-  /**
-   * @constructor
-   */
-  function IntroScreen() {
-
-    var options = {
-      name: screenIntroString,
-      backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty
-    };
-
-    Screen.call( this,
-      function() { return new IntroModel( true ); },
-      function( model ) { return new IntroScreenView( model ); },
-      options
-    );
+  class IntroScreen extends Screen {
+    constructor() {
+      super(
+        () => new IntroModel( true ),
+        model => new IntroScreenView( model ),
+        {
+          name: screenIntroString,
+          backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
+          homeScreenIcon: IntroScreenView.createMixedScreenIcon(),
+          navigationBarIcon: IntroScreenView.createMixedScreenThumbnail()
+        }
+      );
+    }
   }
 
-  fractionsMixedNumbers.register( 'IntroScreen', IntroScreen );
-
-  return inherit( Screen, IntroScreen );
+  return fractionsMixedNumbers.register( 'IntroScreen', IntroScreen );
 } );

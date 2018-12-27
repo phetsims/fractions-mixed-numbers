@@ -5,20 +5,20 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var GameScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/GameScreen' );
-  var IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
-  var LabScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/LabScreen' );
-  var Sim = require( 'JOIST/Sim' );
-  var SimLauncher = require( 'JOIST/SimLauncher' );
+  const GameScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/GameScreen' );
+  const IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
+  const LabScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/LabScreen' );
+  const Sim = require( 'JOIST/Sim' );
+  const SimLauncher = require( 'JOIST/SimLauncher' );
 
   // strings
-  var fractionsMixedNumbersTitleString = require( 'string!FRACTIONS_MIXED_NUMBERS/fractions-mixed-numbers.title' );
+  const fractionsMixedNumbersTitleString = require( 'string!FRACTIONS_MIXED_NUMBERS/fractions-mixed-numbers.title' );
 
-  var simOptions = {
+  const simOptions = {
     credits: {
       //TODO fill in proper credits, all of these fields are optional, see joist.AboutDialog
       leadDesign: '',
@@ -30,8 +30,8 @@ define( function( require ) {
     }
   };
 
-  SimLauncher.launch( function() {
-    var sim = new Sim( fractionsMixedNumbersTitleString, [
+  SimLauncher.launch( () => {
+    const sim = new Sim( fractionsMixedNumbersTitleString, [
       new IntroScreen(),
       new GameScreen(),
       new LabScreen()
