@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.3 Fri May 24 2019 14:46:37 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.4-rc.1 Tue May 28 2019 01:29:27 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -14,7 +14,7 @@
   },
   "chipper": {
     "sha": "8319f3b6abefa68bd7858444ed3a21f01d485ba5",
-    "branch": "fractions-mixed-numbers-1.0"
+    "branch": "HEAD"
   },
   "dot": {
     "sha": "0f80ddafb9064f8ef20cfc0129492c280f2b6b52",
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "93097401fce387dab0311daf309973102e9a0fe7",
+    "sha": "228d522e907fef219b06e59c47eb92e93e422be4",
     "branch": "1.0"
   },
   "joist": {
