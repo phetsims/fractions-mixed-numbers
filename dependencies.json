@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.6 Mon Aug 05 2019 15:42:18 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.6 Mon Aug 19 2019 13:46:48 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -25,12 +25,12 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "ea9dbe609c097ea486c6eb42d40cff51b2cf44df",
+    "sha": "e791a05e464d9ddbfa8b199663e35de57bc85ecc",
     "branch": "1.0"
   },
   "joist": {
-    "sha": "990de5b5e8a7178fac3b076a96b8cca93be66238",
-    "branch": "HEAD"
+    "sha": "4e24fd403094a580a4f87eb69e24a0d56f4ee5fe",
+    "branch": "fractions-mixed-numbers-1.0"
   },
   "kite": {
     "sha": "663e0e960556fb4b0a6ae5e92b6ec41a00753c0c",
@@ -61,12 +61,12 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "ed86a2f54f5dc38b9650d4e581dd50b96d777f67",
-    "branch": "HEAD"
+    "sha": "029632937cfcfae2bcad43f16d11ad5292d8be88",
+    "branch": "fractions-mixed-numbers-1.0"
   },
   "scenery-phet": {
-    "sha": "df5f5ec0112932aaacbce66232f03571c3c9cd84",
-    "branch": "HEAD"
+    "sha": "af6b0fb210de8f0b5cb1fa7aa2539664502221c5",
+    "branch": "fractions-mixed-numbers-1.0"
   },
   "sherpa": {
     "sha": "137e3b9c01057a7a775f1add620b98facb007aaa",
