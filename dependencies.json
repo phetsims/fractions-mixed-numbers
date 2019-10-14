@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.9 Thu Oct 03 2019 11:39:54 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.9 Mon Oct 14 2019 14:12:45 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "760a5520e5d137fbdde2e051681e0cfcba4ac694",
+    "sha": "d9f23091b832f033bb0814276235cc362a8e2829",
     "branch": "1.0"
   },
   "joist": {
@@ -37,8 +37,8 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "b477cbae4844815a92e8b28ba51fd72c3ad0f0c4",
-    "branch": "HEAD"
+    "sha": "edb33298018fb52acdc15224697a928908c6ffc8",
+    "branch": "fractions-mixed-numbers-1.0"
   },
   "phet-io": {
     "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
@@ -93,7 +93,7 @@
     "branch": "HEAD"
   },
   "vibe": {
-    "sha": "a3174d83e533546e4407e3344a435a1ec7e6f275",
-    "branch": "HEAD"
+    "sha": "84719f37bb2c11bc17077d1166ed771a4fd9cfcf",
+    "branch": "fractions-mixed-numbers-1.0"
   }
 }
