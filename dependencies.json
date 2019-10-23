@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.10-rc.2 Mon Oct 21 2019 11:02:02 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-mixed-numbers 1.0.10-rc.2 Wed Oct 23 2019 15:29:14 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -25,12 +25,12 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "298a83ad614df8c7602ed2a06d211e8bedb563c9",
+    "sha": "36309aea384d7e98ea8287112ee0a4ca7399b0bd",
     "branch": "1.0"
   },
   "joist": {
-    "sha": "b6747678a26c2e5ef27148a2ee34751e69caa9d3",
-    "branch": "HEAD"
+    "sha": "40a298404bc9de8e1d17c98ec7984119a2b173dd",
+    "branch": "fractions-mixed-numbers-1.0"
   },
   "kite": {
     "sha": "663e0e960556fb4b0a6ae5e92b6ec41a00753c0c",
