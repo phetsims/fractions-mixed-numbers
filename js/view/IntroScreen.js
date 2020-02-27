@@ -5,33 +5,30 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  const fractionsMixedNumbers = require( 'FRACTIONS_MIXED_NUMBERS/fractionsMixedNumbers' );
-  const IntroModel = require( 'FRACTIONS_COMMON/intro/model/IntroModel' );
-  const IntroScreenView = require( 'FRACTIONS_COMMON/intro/view/IntroScreenView' );
-  const Screen = require( 'JOIST/Screen' );
+import FractionsCommonColorProfile from '../../../fractions-common/js/common/view/FractionsCommonColorProfile.js';
+import IntroModel from '../../../fractions-common/js/intro/model/IntroModel.js';
+import IntroScreenView from '../../../fractions-common/js/intro/view/IntroScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import fractionsMixedNumbersStrings from '../fractions-mixed-numbers-strings.js';
+import fractionsMixedNumbers from '../fractionsMixedNumbers.js';
 
-  // strings
-  const screenIntroString = require( 'string!FRACTIONS_MIXED_NUMBERS/screen.intro' );
+const screenIntroString = fractionsMixedNumbersStrings.screen.intro;
 
-  class IntroScreen extends Screen {
-    constructor() {
-      super(
-        () => new IntroModel( true ),
-        model => new IntroScreenView( model ),
-        {
-          name: screenIntroString,
-          backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
-          homeScreenIcon: IntroScreenView.createMixedScreenIcon(),
-          navigationBarIcon: IntroScreenView.createMixedScreenThumbnail()
-        }
-      );
-    }
+class IntroScreen extends Screen {
+  constructor() {
+    super(
+      () => new IntroModel( true ),
+      model => new IntroScreenView( model ),
+      {
+        name: screenIntroString,
+        backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
+        homeScreenIcon: IntroScreenView.createMixedScreenIcon(),
+        navigationBarIcon: IntroScreenView.createMixedScreenThumbnail()
+      }
+    );
   }
+}
 
-  return fractionsMixedNumbers.register( 'IntroScreen', IntroScreen );
-} );
+fractionsMixedNumbers.register( 'IntroScreen', IntroScreen );
+export default IntroScreen;

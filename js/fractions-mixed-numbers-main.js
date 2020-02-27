@@ -5,36 +5,32 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const GameScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/GameScreen' );
-  const IntroScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/IntroScreen' );
-  const LabScreen = require( 'FRACTIONS_MIXED_NUMBERS/view/LabScreen' );
-  const Sim = require( 'JOIST/Sim' );
-  const SimLauncher = require( 'JOIST/SimLauncher' );
+import Sim from '../../joist/js/Sim.js';
+import SimLauncher from '../../joist/js/SimLauncher.js';
+import fractionsMixedNumbersStrings from './fractions-mixed-numbers-strings.js';
+import GameScreen from './view/GameScreen.js';
+import IntroScreen from './view/IntroScreen.js';
+import LabScreen from './view/LabScreen.js';
 
-  // strings
-  const fractionsMixedNumbersTitleString = require( 'string!FRACTIONS_MIXED_NUMBERS/fractions-mixed-numbers.title' );
+const fractionsMixedNumbersTitleString = fractionsMixedNumbersStrings[ 'fractions-mixed-numbers' ].title;
 
-  const simOptions = {
-    credits: {
-      leadDesign: 'Amanda McGarry',
-      softwareDevelopment: 'Jonathan Olson, Sam Reid, Martin Veillette',
-      team: 'Mike Dubson, Trish Loeblein, Ariel Paul, Kathy Perkins, Vincent Davis, Michael Moorer, Dusty Cole',
-      qualityAssurance: 'Steele Dalton, Megan Lai, Liam Mulhall, Laura Rea, Jacob Romero, Katie Woessner, and Kelly Wurtz',
-      graphicArts: '',
-      thanks: ''
-    }
-  };
+const simOptions = {
+  credits: {
+    leadDesign: 'Amanda McGarry',
+    softwareDevelopment: 'Jonathan Olson, Sam Reid, Martin Veillette',
+    team: 'Mike Dubson, Trish Loeblein, Ariel Paul, Kathy Perkins, Vincent Davis, Michael Moorer, Dusty Cole',
+    qualityAssurance: 'Steele Dalton, Megan Lai, Liam Mulhall, Laura Rea, Jacob Romero, Katie Woessner, and Kelly Wurtz',
+    graphicArts: '',
+    thanks: ''
+  }
+};
 
-  SimLauncher.launch( () => {
-    const sim = new Sim( fractionsMixedNumbersTitleString, [
-      new IntroScreen(),
-      new GameScreen(),
-      new LabScreen()
-    ], simOptions );
-    sim.start();
-  } );
+SimLauncher.launch( () => {
+  const sim = new Sim( fractionsMixedNumbersTitleString, [
+    new IntroScreen(),
+    new GameScreen(),
+    new LabScreen()
+  ], simOptions );
+  sim.start();
 } );
