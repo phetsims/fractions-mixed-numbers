@@ -7,7 +7,7 @@
  */
 
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import fractionsMixedNumbersStrings from './fractionsMixedNumbersStrings.js';
 import GameScreen from './view/GameScreen.js';
 import IntroScreen from './view/IntroScreen.js';
@@ -26,7 +26,7 @@ const simOptions = {
   }
 };
 
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
   const sim = new Sim( fractionsMixedNumbersTitleString, [
     new IntroScreen(),
     new GameScreen(),
