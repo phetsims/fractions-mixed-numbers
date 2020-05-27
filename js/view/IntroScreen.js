@@ -10,8 +10,9 @@ import FractionsCommonColorProfile from '../../../fractions-common/js/common/vie
 import IntroModel from '../../../fractions-common/js/intro/model/IntroModel.js';
 import IntroScreenView from '../../../fractions-common/js/intro/view/IntroScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import fractionsMixedNumbersStrings from '../fractionsMixedNumbersStrings.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import fractionsMixedNumbers from '../fractionsMixedNumbers.js';
+import fractionsMixedNumbersStrings from '../fractionsMixedNumbersStrings.js';
 
 const screenIntroString = fractionsMixedNumbersStrings.screen.intro;
 
@@ -23,8 +24,14 @@ class IntroScreen extends Screen {
       {
         name: screenIntroString,
         backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
-        homeScreenIcon: IntroScreenView.createMixedScreenIcon(),
-        navigationBarIcon: IntroScreenView.createMixedScreenThumbnail()
+        homeScreenIcon: new ScreenIcon( IntroScreenView.createMixedScreenIcon(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } ),
+        navigationBarIcon: new ScreenIcon( IntroScreenView.createMixedScreenThumbnail(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } )
       }
     );
   }
