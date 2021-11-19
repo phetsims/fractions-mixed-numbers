@@ -3,11 +3,22 @@
 /**
  * Auto-generated from modulify, DO NOT manually modify.
  */
-
+/* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
 import fractionsMixedNumbers from './fractionsMixedNumbers.js';
 
-const fractionsMixedNumbersStrings = getStringModule( 'FRACTIONS_MIXED_NUMBERS' );
+type StringsType = {
+  'fractions-mixed-numbers': {
+    'title': string
+  },
+  'screen': {
+    'intro': string,
+    'game': string,
+    'lab': string
+  }
+};
+
+const fractionsMixedNumbersStrings = getStringModule( 'FRACTIONS_MIXED_NUMBERS' ) as StringsType;
 
 fractionsMixedNumbers.register( 'fractionsMixedNumbersStrings', fractionsMixedNumbersStrings );
 
