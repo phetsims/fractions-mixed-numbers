@@ -9,12 +9,12 @@ import fractionsMixedNumbers from './fractionsMixedNumbers.js';
 
 type StringsType = {
   'fractions-mixed-numbers': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'intro': string,
-    'game': string,
-    'lab': string
+    'intro': string;
+    'game': string;
+    'lab': string;
   }
 };
 
