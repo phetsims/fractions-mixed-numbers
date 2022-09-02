@@ -13,7 +13,7 @@ import GameScreen from './view/GameScreen.js';
 import IntroScreen from './view/IntroScreen.js';
 import LabScreen from './view/LabScreen.js';
 
-const fractionsMixedNumbersTitleString = fractionsMixedNumbersStrings[ 'fractions-mixed-numbers' ].title;
+const fractionsMixedNumbersTitleStringProperty = fractionsMixedNumbersStrings[ 'fractions-mixed-numbers' ].titleStringProperty;
 
 const simOptions = {
   credits: {
@@ -27,7 +27,7 @@ const simOptions = {
 };
 
 simLauncher.launch( () => {
-  const sim = new Sim( fractionsMixedNumbersTitleString, [
+  const sim = new Sim( fractionsMixedNumbersTitleStringProperty, [
     new IntroScreen(),
     new GameScreen(),
     new LabScreen()
