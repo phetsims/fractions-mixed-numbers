@@ -23,8 +23,8 @@ type StringsType = {
   }
 };
 
-const fractionsMixedNumbersStrings = getStringModule( 'FRACTIONS_MIXED_NUMBERS' ) as StringsType;
+const FractionsMixedNumbersStrings = getStringModule( 'FRACTIONS_MIXED_NUMBERS' ) as StringsType;
 
-fractionsMixedNumbers.register( 'fractionsMixedNumbersStrings', fractionsMixedNumbersStrings );
+fractionsMixedNumbers.register( 'FractionsMixedNumbersStrings', FractionsMixedNumbersStrings );
 
-export default fractionsMixedNumbersStrings;
+export default FractionsMixedNumbersStrings;

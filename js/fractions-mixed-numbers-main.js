@@ -8,12 +8,12 @@
 
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
-import fractionsMixedNumbersStrings from './fractionsMixedNumbersStrings.js';
+import FractionsMixedNumbersStrings from './FractionsMixedNumbersStrings.js';
 import GameScreen from './view/GameScreen.js';
 import IntroScreen from './view/IntroScreen.js';
 import LabScreen from './view/LabScreen.js';
 
-const fractionsMixedNumbersTitleStringProperty = fractionsMixedNumbersStrings[ 'fractions-mixed-numbers' ].titleStringProperty;
+const fractionsMixedNumbersTitleStringProperty = FractionsMixedNumbersStrings[ 'fractions-mixed-numbers' ].titleStringProperty;
 
 const simOptions = {
   credits: {
