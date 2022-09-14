@@ -14,15 +14,13 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import fractionsMixedNumbers from '../fractionsMixedNumbers.js';
 import FractionsMixedNumbersStrings from '../FractionsMixedNumbersStrings.js';
 
-const screenGameString = FractionsMixedNumbersStrings.screen.game;
-
 class GameScreen extends Screen {
   constructor() {
     super(
       () => new BuildingGameModel( true ),
       model => new BuildingGameScreenView( model ),
       {
-        name: screenGameString,
+        name: FractionsMixedNumbersStrings.screen.gameStringProperty,
         backgroundColorProperty: FractionsCommonColors.otherScreenBackgroundProperty,
         homeScreenIcon: new ScreenIcon( BuildingGameScreenView.createMixedScreenIcon(), {
           maxIconWidthProportion: 1,
