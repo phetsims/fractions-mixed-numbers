@@ -26,7 +26,12 @@
     },
     "simulation": true,
     "supportsOutputJS": true,
-    "published": true
+    "published": true,
+    "screenNameKeys": [
+      "FRACTIONS_MIXED_NUMBERS/screen.intro",
+      "FRACTIONS_MIXED_NUMBERS/screen.game",
+      "FRACTIONS_MIXED_NUMBERS/screen.lab"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
