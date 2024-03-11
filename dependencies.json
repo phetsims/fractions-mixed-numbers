@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-mixed-numbers 1.0.27-rc.1 Thu Feb 29 2024 14:06:35 GMT-0700 (Mountain Standard Time)",
+  "comment": "# fractions-mixed-numbers 1.0.27 Mon Mar 11 2024 11:14:48 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "b1ce9c1070d0d4b2e0c0be615764f665b3a3aa32",
+    "sha": "ba69dc76566a6d615d7dd8bc919139a0927364f7",
     "branch": "1.0"
   },
   "joist": {
