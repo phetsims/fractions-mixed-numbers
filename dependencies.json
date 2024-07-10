@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "fractions-mixed-numbers": {
-    "sha": "17550addc93142671c5b923f07d0b1492bdd379f",
+    "sha": "1c48f7569e8a7b57d65693165a55272d6ff190e1",
     "branch": "1.0"
   },
   "joist": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "89bf09e24cac9e78b1d3462862674286e1e6b12a",
+    "sha": "f9c0eb85870071f645f7528cef6cb02e0142420e",
     "branch": "HEAD"
   },
   "scenery-phet": {
