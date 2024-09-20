@@ -42,7 +42,7 @@
         ],
         "parserOptions": {
           "project": [
-            "../fractions-mixed-numbers/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
