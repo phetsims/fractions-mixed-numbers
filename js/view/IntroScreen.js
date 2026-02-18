@@ -1,4 +1,4 @@
-// Copyright 2018-2022, University of Colorado Boulder
+// Copyright 2018-2026, University of Colorado Boulder
 
 /**
  * Intro screen for Fractions: Mixed Numbers
