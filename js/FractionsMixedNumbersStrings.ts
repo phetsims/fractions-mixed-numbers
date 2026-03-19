@@ -28,6 +28,4 @@ type StringsType = {
 
 const FractionsMixedNumbersStrings = getStringModule( 'FRACTIONS_MIXED_NUMBERS' ) as StringsType;
 
-fractionsMixedNumbers.register( 'FractionsMixedNumbersStrings', FractionsMixedNumbersStrings );
-
 export default FractionsMixedNumbersStrings;

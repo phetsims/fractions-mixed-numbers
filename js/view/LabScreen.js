@@ -11,7 +11,6 @@ import BuildingLabModel from '../../../fractions-common/js/lab/model/BuildingLab
 import BuildingLabScreenView from '../../../fractions-common/js/lab/view/BuildingLabScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import fractionsMixedNumbers from '../fractionsMixedNumbers.js';
 import FractionsMixedNumbersStrings from '../FractionsMixedNumbersStrings.js';
 
 class LabScreen extends Screen {
@@ -31,5 +30,4 @@ class LabScreen extends Screen {
   }
 }
 
-fractionsMixedNumbers.register( 'LabScreen', LabScreen );
 export default LabScreen;
